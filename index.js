@@ -1,1 +1,3 @@
-module.exports = require('./lib')
+exports.sayHello = function (name) {
+    return "Hello " + name;
+}
